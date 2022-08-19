@@ -1,13 +1,17 @@
-import s from './Contakts.module.css'
-import sContainer from '../common/styles/Container.module.css'
+import s from './Contacts.module.css'
 
-export const Contakts = () => {
+export const Contacts = () => {
     return (
-        <div className={s.relocateBlock}>
-            <div className={`${sContainer.container} ${s.container}`}>
-                <h2 className={s.item}>Relocate</h2>
-                <div>
-                    <button>Post me</button>
+        <div className={s.contactsBlock}>
+            <div className={s.container}>
+                <h2 className={s.item}>Contacts</h2>
+                <form className={s.formContainer}>
+                    <input/>
+                    <input/>
+                    <textarea/>
+                </form>
+                <div className={s.button}>
+                    <a href="">Send</a>
                 </div>
             </div>
         </div>

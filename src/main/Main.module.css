@@ -1,0 +1,15 @@
+.mainBlock {
+    height: 100vh; /*vusota ekrana*/
+    background: lightpink;
+}
+
+.text {
+    width: 300px;
+    background: azure;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background: azure;
+}

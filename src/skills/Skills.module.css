@@ -1,0 +1,22 @@
+.skillsBlock {
+    /*height: 100vh;  na vusotu ekrana*/
+    background: palegreen;
+    min-height: 100vh; /*dlya mob versii*/
+}
+
+.skillsContainer {
+    flex-direction: column;
+    justify-content: flex-start
+}
+
+.title {
+    background: cornsilk;
+}
+
+.skills {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

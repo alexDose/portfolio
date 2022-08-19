@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Main.module.css';
 import sContainer from '../common/styles/Container.module.css';
 
-function Main() {
+export const Main = () => {
     return (
         <div className={s.mainBlock}>
             <div className={sContainer.container}>
@@ -16,5 +16,3 @@ function Main() {
         </div>
     );
 }
-
-export default Main;

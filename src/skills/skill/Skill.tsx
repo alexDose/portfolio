@@ -1,7 +1,12 @@
 import React from 'react';
 import s from './Skill.module.css';
 
-function Skill(props) {
+type SkillType = {
+    title: string
+    description: string
+}
+
+export const Skill = (props: SkillType) => {
     return (
         <div className={s.skill}>
             <div className={s.icon}></div>
@@ -12,5 +17,3 @@ function Skill(props) {
         </div>
     );
 }
-
-export default Skill;

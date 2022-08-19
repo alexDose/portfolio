@@ -1,9 +1,24 @@
-import s from ''
+.footerBlock {
+    background-color: indianred;
+    height: 30vh;
+}
 
-export const Footer = () => {
-    return (
-        <div>
+.container {
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-        </div>
-    )
+.item {
+    background-color: cornsilk;
+}
+
+.box {
+    width: 60%;
+    height: 42px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+
 }

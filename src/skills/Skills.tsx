@@ -1,9 +1,9 @@
 import React from 'react';
 import s from './Skills.module.css';
 import sContainer from '../common/styles/Container.module.css'
-import Skill from "./skill/Skill";
+import {Skill} from "./skill/Skill";
 
-function Skills() {
+export const Skills = () => {
     return (
         <div className={s.skillsBlock}>
             <div className={`${sContainer.container} ${s.skillsContainer}`}>
@@ -12,10 +12,10 @@ function Skills() {
                     <Skill title={'Js'} description={'Lorem ipsium sit emet'}/>
                     <Skill title={'React'} description={'Lorem ipsium sit emet'}/>
                     <Skill title={'Css'} description={'Lorem ipsium sit emet'}/>
+                    <Skill title={'Css'} description={'Lorem ipsium sit emet'}/>
+                    <Skill title={'Css'} description={'Lorem ipsium sit emet'}/>
                 </div>
             </div>
         </div>
     );
 }
-
-export default Skills;
