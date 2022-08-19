@@ -1,0 +1,9 @@
+import s from ''
+
+export const Footer = () => {
+    return (
+        <div>
+
+        </div>
+    )
+}
