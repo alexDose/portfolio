@@ -1,6 +1,6 @@
 .relocateBlock {
     background: palegreen;
-    height: 30vh;
+    min-height: 30vh;
 }
 
 .container {
