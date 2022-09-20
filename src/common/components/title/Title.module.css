@@ -1,13 +1,3 @@
-.projectsBlock {
-    min-height: 100vh;
-    background: #1f1f20;
-    padding: 100px 0;
-}
-
-.container {
-    flex-direction: column;
-    justify-content: flex-start;
-}
 
 .title {
     margin: 0 0 40px;
@@ -33,19 +23,4 @@
     left: 50%;
     transform: translate(-50%, 50%);
     bottom: -30px;
-}
-
-.projects {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    border: 1px solid black;
-    flex-wrap: wrap;
-}
-
-@media screen and (max-width: 630px) {
-    .projects {
-        justify-content: center;
-    }
 }
