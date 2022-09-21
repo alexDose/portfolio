@@ -1,5 +1,4 @@
 .footerBlock {
-    background-color: indianred;
     height: 30vh;
 }
 
@@ -9,7 +8,9 @@
 }
 
 .item {
-    background-color: cornsilk;
+    color: gold;
+    font-family: 'Shippori Mincho', serif;
+letter-spacing: 5px;
 }
 
 .box {

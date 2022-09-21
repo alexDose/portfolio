@@ -1,17 +1,20 @@
 .project {
-    width: 250px;
-    background: white;
+    width: 450px;
+    background: #252527;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px 0;
 }
 
 .imgContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 300px;
     width: 100%;
     background-image: url('https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg');
     background-size: cover;
@@ -38,4 +41,17 @@
 .button a {
     color: white;
     text-decoration: none;
+}
+
+.text {
+    font-family: 'Shippori Mincho', serif;
+}
+
+.text .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text .description {
+    font-family: 'Shippori Mincho', serif;
 }

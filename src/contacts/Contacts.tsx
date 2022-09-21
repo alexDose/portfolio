@@ -1,10 +1,11 @@
 import s from './Contacts.module.css'
+import {Title} from "../common/components/title/Title";
 
 export const Contacts = () => {
     return (
         <div className={s.contactsBlock}>
             <div className={s.container}>
-                <h2 className={s.item}>Contacts</h2>
+                <Title text={"Contacts"}/>
                 <form className={s.formContainer}>
                     <input/>
                     <input/>

@@ -1,6 +1,6 @@
 .relocateBlock {
-    background: palegreen;
-    min-height: 30vh;
+    min-height: 50vh;
+    padding: 100px 0;
 }
 
 .container {
@@ -8,11 +8,8 @@
     justify-content: space-between;
 }
 
-.item {
-    background: cornsilk;
-}
-
 .button {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,9 +25,14 @@
 .button:hover {
     opacity: 0.8;
     cursor: pointer;
+    border: 1px solid gold;
 }
 
 .button a {
     color: white;
     text-decoration: none;
+}
+
+.button:hover a {
+    color: gold;
 }

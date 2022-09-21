@@ -1,6 +1,18 @@
 .nav {
     border: 1px solid black;
-    width: 300px;
+    width: 550px;
     display: flex;
     justify-content: space-between;
+}
+
+.nav a {
+    color: gold;
+    text-decoration: none;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.nav a:hover {
+    text-decoration: underline
 }

@@ -13,9 +13,9 @@ export const Project = (props: ProjectType) => {
                     <a href="">Seen</a>
                 </div>
             </div>
-            <div>
-                <div>{props.name}</div>
-                <span>{props.description}</span>
+            <div className={s.text}>
+                <div className={s.title}>{props.name}</div>
+                <div className={s.description}>{props.description}</div>
             </div>
         </div>
     )

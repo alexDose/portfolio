@@ -1,6 +1,7 @@
 .contactsBlock {
-    background: lightskyblue;
-    height: 70vh;
+    background: #1f1f20;
+    min-height: 80vh;
+    padding: 100px 0;
 }
 
 .container {
@@ -14,17 +15,15 @@
     margin: 0 auto;
 }
 
-.item {
-    background: cornsilk;
-}
-
 .formContainer {
+    margin-top: 30px;
     width: 250px;
     display: flex;
     flex-direction: column;
 }
 
 .button {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;

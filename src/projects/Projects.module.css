@@ -9,32 +9,6 @@
     justify-content: flex-start;
 }
 
-.title {
-    margin: 0 0 40px;
-    font-family: 'Shippori Mincho', serif;
-    font-size: 30px;
-    font-weight: 400;
-    color: white;
-    line-height: 1.2;
-    letter-spacing: 5px;
-    position: relative;
-}
-
-.title h2 {
-    margin: 0;
-}
-
-.title::after {
-    content: "";
-    background-color: white;
-    height: 1px;
-    width: 55px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    bottom: -30px;
-}
-
 .projects {
     margin-top: 30px;
     display: flex;
@@ -44,7 +18,7 @@
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 1140px) {
     .projects {
         justify-content: center;
     }
