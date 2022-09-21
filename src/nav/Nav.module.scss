@@ -1,0 +1,22 @@
+@import "/src/common/styles/sass/variables";
+
+.nav {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    color: $textColor;
+    text-decoration: none;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+
+  a:hover {
+    text-decoration: underline
+  }
+}
+
+
+

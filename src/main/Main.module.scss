@@ -1,0 +1,25 @@
+@import "/src/common/styles/sass/variables";
+
+.mainBlock {
+  min-height: 100vh; /*vusota ekrana dlya mob*/
+  background: $bgColor;
+  padding: 100px 0;
+
+  .text {
+    color: $textColor;
+    width: 600px;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 26px;
+    letter-spacing: 5px;
+
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  .photo {
+    width: 400px;
+    height: 500px;
+    background: azure;
+  }
+}

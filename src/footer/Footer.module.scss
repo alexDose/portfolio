@@ -1,0 +1,29 @@
+@import "/src/common/styles/sass/variables";
+
+.footerBlock {
+  height: 30vh;
+
+  .container {
+    flex-direction: column;
+    justify-content: space-between;
+
+    .item {
+      color: $textColor;
+      letter-spacing: 3px;
+    }
+
+    .box {
+      width: 60%;
+      height: 42px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      box-sizing: border-box;
+    }
+  }
+}
+
+
+
+
+

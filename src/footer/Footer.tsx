@@ -1,4 +1,4 @@
-import s from './Footer.module.css'
+import s from './Footer.module.scss'
 import sContainer from '../common/styles/Container.module.css'
 import {ImgBox} from "./img/ImgBox";
 
