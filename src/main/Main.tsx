@@ -1,10 +1,12 @@
 import React from 'react';
 import s from './Main.module.scss';
 import sContainer from '../common/styles/Container.module.css';
+import {Particle} from "../common/components/Particle/Particle";
 
 export const Main = () => {
     return (
         <div className={s.mainBlock}>
+            <Particle/>
             <div className={sContainer.container}>
                 <div className={s.text}>
                     <span>Hi there</span>

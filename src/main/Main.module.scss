@@ -5,6 +5,15 @@
   background: $bgColor;
   padding: 100px 0;
 
+  .particles {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.3;
+  }
+
   .text {
     width: 600px;
     font-size: 26px;
@@ -24,16 +33,15 @@
     height: 500px;
     background: azure;
     position: relative;
-    border-radius: 20px;
     z-index: 1;
     &::after {
       content: "";
       position: absolute;
-      border-radius: 20px;
       top: 5px;
       right: -5px;
       bottom: -5px;
       left: 5px;
+      z-index: 0;
       background-color: $textColor;
     }
   }
