@@ -4,6 +4,7 @@ import {Project} from "./project/Project";
 import {Title} from "../common/components/title/Title";
 import todolistImg from "./../assets/image/todolist.jpeg"
 import socialImg from "./../assets/image/social.webp"
+import Fade from "react-awesome-reveal";
 
 export const Projects = () => {
 
@@ -19,12 +20,14 @@ export const Projects = () => {
             <div className={`${sContainer.container} ${s.container}`}>
                 <Title text={"Projects"}/>
                 <div className={s.projects}>
+                    <Fade>
                         <Project name={'Todolist'}
                                  description={'asmd a egnfg sdpgo sd dfFSAF f asdafpeif anspfn anweaj nsdasjnf jafano dna na '}
                                  style={todolist}/>
                         <Project name={'Social Network'}
                                  description={'asmd a egnfg sdpgo sd dfFSAF f lflfal fkekf fiwhfsanv ahasdn ahf klhahf ad'}
                                  style={social}/>
+                    </Fade>
                 </div>
             </div>
         </div>

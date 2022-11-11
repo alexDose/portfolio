@@ -11,7 +11,7 @@ export const Main = () => {
 
     return (
         <div className={s.mainBlock}>
-            <Fade >
+            <Fade>
                 <div className={sContainer.container}>
                     <div className={s.text}>
                         <span>Hi there</span>
@@ -23,7 +23,9 @@ export const Main = () => {
                         </p>
                         <p>Frontend Developer</p>
                     </div>
-                    <div className={s.photo} style={myPhoto}></div>
+                    <div className={s.mainPhoto}>
+                        <div className={s.photo} style={myPhoto}></div>
+                    </div>
                 </div>
             </Fade>
         </div>
