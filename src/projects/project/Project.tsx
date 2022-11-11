@@ -9,14 +9,14 @@ type ProjectType = {
 
 export const Project = (props: ProjectType) => {
     return (
-        <div className={s.project}>
-            <div className={s.imgContainer} style={props.style}>
-                <Button href={""} title={"Seen"}/>
+            <div className={s.project}>
+                <div className={s.imgContainer} style={props.style}>
+                    <Button href={""} title={"Seen"}/>
+                </div>
+                <div className={s.text}>
+                    <div className={s.title}>{props.name}</div>
+                    <div className={s.description}>{props.description}</div>
+                </div>
             </div>
-            <div className={s.text}>
-                <div className={s.title}>{props.name}</div>
-                <div className={s.description}>{props.description}</div>
-            </div>
-        </div>
     )
 }

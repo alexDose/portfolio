@@ -1,0 +1,22 @@
+@import "common/styles/sass/variables.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    position: relative;
+    background: $bgColorDefault;
+    color: white;
+    font-family: 'Shippori Mincho', serif;
+
+    .particles {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        opacity: 0.1;
+    }
+}
+

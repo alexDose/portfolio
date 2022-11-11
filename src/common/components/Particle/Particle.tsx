@@ -1,8 +1,8 @@
-import { useCallback } from "react";
+import {useCallback} from "react";
 import Particles from "react-tsparticles";
-import type { Container, Engine } from "tsparticles-engine";
-import { loadFull } from "tsparticles";
-import "../../../App.css"
+import type {Container, Engine} from "tsparticles-engine";
+import {loadFull} from "tsparticles";
+import "../../../App.scss"
 
 export const Particle = () => {
     const particlesInit = useCallback(async (engine: Engine) => {
@@ -14,11 +14,7 @@ export const Particle = () => {
 
     return (
         <Particles className={"particles"} id="tsparticles" init={particlesInit} loaded={particlesLoaded} options={{
-            background: {
-                color: {
-                    value: "#0d47a1",
-                },
-            },
+            background: {},
             fpsLimit: 120,
             interactivity: {
                 events: {
@@ -44,13 +40,11 @@ export const Particle = () => {
             },
             particles: {
                 color: {
-                    value: "#ffffff",
+                    value: "gold",
                 },
                 links: {
-                    color: "#ffffff",
-                    distance: 150,
+                    distance: 170,
                     enable: true,
-                    opacity: 0.5,
                     width: 1,
                 },
                 collisions: {
@@ -61,8 +55,8 @@ export const Particle = () => {
                     outModes: {
                         default: "bounce",
                     },
-                    random: false,
-                    speed: 2,
+                    random: true,
+                    speed: 0.7,
                     straight: false,
                 },
                 number: {
@@ -72,14 +66,11 @@ export const Particle = () => {
                     },
                     value: 80,
                 },
-                opacity: {
-                    value: 0.5,
-                },
                 shape: {
                     type: "circle",
                 },
                 size: {
-                    value: { min: 1, max: 5 },
+                    value: {min: 1, max: 5},
                 },
             },
             detectRetina: true,

@@ -1,4 +1,6 @@
 .header {
+    position: relative;
+    background: #252527;
     display: flex;
     justify-content: flex-end;
     align-items: center;

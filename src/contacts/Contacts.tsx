@@ -10,9 +10,9 @@ export const Contacts = () => {
                 <Title text={"Contacts"}/>
                 <Fade>
                     <form className={s.formContainer}>
-                        <input/>
-                        <input/>
-                        <textarea/>
+                        <input className={s.inputForm} placeholder={"Name"}/>
+                        <input className={s.inputForm} placeholder={"e-mail"}/>
+                        <textarea className={s.textareaForm} placeholder={"Message"}/>
                     </form>
                     <Button href={""} title={"Send"}/>
                 </Fade>
