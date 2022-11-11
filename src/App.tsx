@@ -7,10 +7,12 @@ import {Projects} from "./projects/Projects";
 import {Relocate} from "./relocate/Relocate";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
+import {Particle} from "./common/components/Particle/Particle";
 
 export const App = () => {
     return (
         <div className="App">
+            <Particle/>
             <Header/>
             <Main/>
             <Skills/>

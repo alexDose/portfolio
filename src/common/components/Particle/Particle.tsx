@@ -2,20 +2,18 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import type { Container, Engine } from "tsparticles-engine";
 import { loadFull } from "tsparticles";
-import s from "../../../main/Main.module.scss"
+import "../../../App.css"
 
 export const Particle = () => {
     const particlesInit = useCallback(async (engine: Engine) => {
-        console.log(engine);
         await loadFull(engine);
     }, []);
 
     const particlesLoaded = useCallback(async (container: Container | undefined) => {
-        await console.log(container);
     }, []);
 
     return (
-        <Particles className={s.particles} id="tsparticles" init={particlesInit} loaded={particlesLoaded} options={{
+        <Particles className={"particles"} id="tsparticles" init={particlesInit} loaded={particlesLoaded} options={{
             background: {
                 color: {
                     value: "#0d47a1",
@@ -64,7 +62,7 @@ export const Particle = () => {
                         default: "bounce",
                     },
                     random: false,
-                    speed: 6,
+                    speed: 2,
                     straight: false,
                 },
                 number: {
