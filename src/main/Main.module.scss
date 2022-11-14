@@ -1,50 +1,48 @@
 @import "/src/common/styles/sass/variables";
 
 .mainBlock {
-  min-height: 100vh; /*vusota ekrana dlya mob*/
-  background: $bgColor;
-  padding: 100px 0;
+    min-height: 100vh; /*vusota ekrana dlya mob*/
+    background: $bgColor;
+    padding: 100px 0;
 
-  .text {
-    width: 600px;
-    font-size: 26px;
-    letter-spacing: 5px;
+    .text {
+        width: 600px;
+        font-size: 26px;
+        letter-spacing: 5px;
 
-    .title {
-      font-size: 40px;
-      font-weight: bold;
+        .title {
+            font-size: 40px;
+            font-weight: bold;
 
-      .name {
-        color: $textColor;
-      }
-    }
-  }
-
-  .mainPhoto {
-    position: relative;
-
-    &::after {
-      position: absolute;
-      content: "";
-      top: 5px;
-      right: -5px;
-      bottom: -5px;
-      left: 5px;
-      z-index: -1;
-      background-color: $textColor;
+            .name {
+                color: $textColor;
+            }
+        }
     }
 
-    .photo {
-      width: 400px;
-      height: 500px;
-      z-index: 1;
-      background-size: cover;
-      background-position: center;
-      @media screen and (max-width: 500px) {
-        width: 320px;
-      }
+    .mainPhoto {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            top: 5px;
+            right: -5px;
+            bottom: -5px;
+            left: 5px;
+            z-index: -1;
+            background-color: $textColor;
+        }
+
+        .photo {
+            width: 400px;
+            height: 500px;
+            z-index: 1;
+            background-size: cover;
+            background-position: center;
+            @media screen and (max-width: 500px) {
+                width: 320px;
+            }
+        }
     }
-  }
-
-
 }

@@ -1,29 +1,33 @@
 @import "/src/common/styles/sass/variables";
 
 .footerBlock {
-  height: 25vh;
+    height: 25vh;
 
-  .container {
-    flex-direction: column;
-    justify-content: space-between;
+    .container {
+        flex-direction: column;
+        justify-content: space-between;
 
-    .item {
-      color: $textColor;
-      letter-spacing: 3px;
+        .item {
+            color: $textColor;
+            letter-spacing: 3px;
+        }
+
+        .box {
+            width: 60%;
+            height: 42px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            box-sizing: border-box;
+
+            .imgBox {
+                width: 40px;
+                height: 40px;
+                background-size: cover;
+                background-position: center;
+                cursor: pointer;
+                z-index: 3;
+            }
+        }
     }
-
-    .box {
-      width: 60%;
-      height: 42px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      box-sizing: border-box;
-    }
-  }
 }
-
-
-
-
-

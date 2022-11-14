@@ -1,26 +1,21 @@
 .skillsBlock {
-  /*height: 100vh;  na vusotu ekrana*/
-  min-height: 100vh; /*dlya mob versii*/
-  padding: 100px 0;
+    /*height: 100vh;  na vusotu ekrana*/
+    min-height: 100vh; /*dlya mob versii*/
+    padding: 100px 0;
 
-  .skillsContainer {
-    flex-direction: column;
-    justify-content: flex-start;
+    .skillsContainer {
+        flex-direction: column;
+        justify-content: flex-start;
 
-    .skills {
-      margin-top: 30px;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      @media screen and (max-width: 642px) {
-        justify-content: center;
-      }
+        .skills {
+            margin-top: 30px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            @media screen and (max-width: 642px) {
+                justify-content: center;
+            }
+        }
     }
-  }
 }
-
-
-
-
-

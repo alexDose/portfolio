@@ -1,6 +1,10 @@
-export const ImgBox = () => {
-    return (
-        <div style={{width: '40px', height: '40px', border: '1px solid black', background: 'grey'}}>
-        </div>
-    )
-}
+import s from "../Footer.module.scss";
+
+type ImgBoxType = {
+    style: any;
+    href: string;
+};
+
+export const ImgBox = (props: ImgBoxType) => {
+    return <a href={props.href} className={s.imgBox} style={props.style}></a>;
+};

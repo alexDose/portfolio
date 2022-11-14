@@ -1,11 +1,9 @@
 .relocateBlock {
-  min-height: 50vh;
-  padding: 100px 0;
+    min-height: 50vh;
+    padding: 100px 0;
 
-  .container {
-    flex-direction: column;
-    justify-content: space-between;
-  }
+    .container {
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
-
-
