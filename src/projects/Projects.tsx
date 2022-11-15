@@ -24,21 +24,21 @@ export const Projects = () => {
                 <Title text={"Projects"} />
                 <div className={s.projects}>
                     <Fade>
-                        <Project
+                        <Project href={"https://alexdose.github.io/todolist"}
                             name={"Todolist"}
                             description={
                                 "Educational project. Stack: TypeScript, React, Redux, Redux-thunk, React-Router-Dom, Axios, Material-UI. Using TypeScript for better code control. Covering code with unit tests, bug fixing, refactoring, deploying."
                             }
                             style={todolist}
                         />
-                        <Project
+                        <Project href={"https://alexdose.github.io/react-way-of-samurai"}
                             name={"Social Network"}
                             description={
                                 "Self-education project, Part time. Stack: TypeScript, React, Redux, Redux-thunk, React-Router-Dom, Axios, Redux-form, Ant Design, Reselect. Using TypeScript for better code control, ESLint, Prettier for the best code style. Creating unit tests, bug fixing, refactoring, deploying. Organizing correct app architecture."
                             }
                             style={social}
                         />
-                        <Project
+                        <Project href={"https://karinaol.github.io/cards_project"}
                             name={"Packs Cards"}
                             description={
                                 "Start-up project, Part time. Stack: TypeScript, React, Redux, Redux-thunk, React-Router-Dom, Axios, Formik, Material-UI. Using TypeScript for better code control, ESLint, Prettier for the best code style. Organizing correct app architecture. Team development: bug fixing, refactoring, deploying. "
