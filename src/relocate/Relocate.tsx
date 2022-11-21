@@ -8,7 +8,7 @@ export const Relocate = () => {
     return (
         <div className={s.relocateBlock}>
             <div className={`${sContainer.container} ${s.container}`}>
-                <Title text={"I am available for freelance"} />
+                <Title text={"I am available for relocation"} />
                 <Fade>
                     <div style={{ marginTop: "25px" }}>
                         <Button href={""} title={"Hire me"} />
