@@ -1,7 +1,7 @@
 @import "/src/common/styles/sass/variables";
 
 .project {
-    width: 450px;
+    max-width: 450px;
     background: #252527;
     display: flex;
     flex-direction: column;

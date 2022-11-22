@@ -36,8 +36,9 @@ export const Contacts = () => {
             return errors;
         },
         onSubmit: (values) => {
-            axios.post('http://localhost:3010/sendMessage', values)
+            axios.post('https://gmail-smtp-nine.vercel.app/sendMessage', values)
             formik.resetForm()
+            alert('Your message has been sent')
         }
     })
 

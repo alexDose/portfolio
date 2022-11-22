@@ -11,6 +11,8 @@ import imgRedux from "../assets/skills/icons8-redux-96.png";
 import imgGit from "../assets/skills/icons8-github-96.png";
 import imgHtml from "../assets/skills/icons8-html-5-96.png";
 import imgCss from "../assets/skills/icons8-css3-96.png";
+import imgSass from "../assets/skills/icons8-sass-96.png";
+import imgMaterialUi from "../assets/skills/icons8-material-ui-96.png";
 
 export const Skills = () => {
     const styleJs = {
@@ -34,6 +36,12 @@ export const Skills = () => {
     const styleCss = {
         backgroundImage: `url(${imgCss})`,
     };
+    const styleSass = {
+        backgroundImage: `url(${imgSass})`,
+    };
+    const styleMaterialUi = {
+        backgroundImage: `url(${imgMaterialUi})`,
+    };
 
     return (
         <div id={"skills"} className={s.skillsBlock}>
@@ -45,9 +53,11 @@ export const Skills = () => {
                         <Skill title={"TS"} style={styleTs} />
                         <Skill title={"REACT"} style={styleReact} />
                         <Skill title={"REDUX"} style={styleRedux} />
+                        <Skill title={"MATERIAL UI"} style={styleMaterialUi} />
                         <Skill title={"GIT"} style={styleGit} />
                         <Skill title={"HTML"} style={styleHtml} />
                         <Skill title={"CSS"} style={styleCss} />
+                        <Skill title={"SASS"} style={styleSass} />
                     </div>
                 </Fade>
             </div>
