@@ -41,7 +41,7 @@ export const Projects = () => {
                         <Project href={"https://karinaol.github.io/cards_project"}
                             name={"Packs Cards"}
                             description={
-                                "Start-up project, Part time. Stack: TypeScript, React, Redux, Redux-thunk, React-Router-Dom, Axios, Formik, Material-UI. Using TypeScript for better code control, ESLint, Prettier for the best code style. Organizing correct app architecture. Team development: bug fixing, refactoring, deploying. "
+                                "Commercial project, Part time. Stack: TypeScript, React, Redux, Redux-thunk, React-Router-Dom, Axios, Formik, Material-UI. Using TypeScript for better code control, ESLint, Prettier for the best code style. Organizing correct app architecture. Team development: bug fixing, refactoring, deploying. "
                             }
                             style={packsCards}
                         />
